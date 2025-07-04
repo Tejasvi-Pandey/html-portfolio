@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>my first years subject</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    .header {
+      background-color: #003366;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+
+    .subjects-section {
+      background: linear-gradient(135deg, #007B7F, #009688);
+      padding: 60px 20px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      text-align: center;
+      color: white;
+    }
+
+    .subjects-section h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .subject-gallery {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .subject-card {
+      display: inline-block;
+      width: 220px;
+      background: #fff;
+      margin: 15px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      vertical-align: top;
+    }
+
+    .subject-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .subject-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .subject-info {
+      background: #f9f9f9;
+      padding: 10px;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    .subject-info a {
+      text-decoration: none;
+      color: #003366;
+      transition: color 0.3s ease;
+    }
+
+    .subject-info a:hover {
+      color: #009688;
+    }
+
+    .highlight-block {
+      background: #ffffff;
+      padding: 40px 20px;
+      margin: 40px auto 0;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .highlight-block h3 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    .highlight-block p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .highlight-block a {
+      color: #007B7F;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .highlight-block a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      background: #003366;
+      padding: 30px;
+      text-align: center;
+      color: white;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      margin-top: 40px;
+    }
+
+    .footer p {
+      margin: 8px 0;
+    }
+
+    @media (max-width: 768px) {
+      .subject-card {
+        width: 90%;
+      }
+
+      .subjects-section h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1> First Year Subjects</h1>
+  </div>
+
+  <div class="subjects-section">
+    <h2>Explore My First Year Courses</h2>
+    <div class="subject-gallery">
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/qvZL64Y3_41csW1oyoaZXyZ-Rw-D99DFMkgFvZZBG9I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9waHlz/aWNzLWZvcm11bGFz/LXdyaXR0ZW4td2hp/dGUtcGFwZXItMTQ1/NzQxNjYuanBn" alt="Physics">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/phy.html" target="_blank">Physics</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/foGS1e6Wz61j4GiJqlNp3AqgH_nveZIrxPg71ZAGRn0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/bWF0aHMtY2hhbGti/b2FyZF8yMy0yMTQ4/MTc4MjIwLmpwZz9z/ZW10PWFpc19oeWJy/aWQmdz03NDA" alt="Mathematics-1">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/maths1.html" target="_blank">Mathematics-1</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/xXnyRwpi2wN8Pfp7SL-YXc0zUNS8b6hZHCP0NyK5fPo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LmJs/YWNrZGlhbW9uZG5l/dC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMTEvSG93/LXRvLUltcHJvdmUt/UHJvZmVzc2lvbmFs/LUNvbW11bmljYXRp/b24tQmxvZy5wbmc_/cmVzaXplPTgwMCw0/NTAmcXVhbGl0eT04/MCZzc2w9MQ" alt="Professional Communication">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/com.html" target="_blank">Prof. Communication</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/QGIxvYr6NgU8KwaySo-QdtPzrBGh6mMLefhhwLwM888/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jb25jZXB0dWFs/LXByb2dyYW1taW5n/LWNvZGluZy1mdXR1/cmUtc29mdHdhcmVf/MzE5NjUtMjQzOTgu/anBnP3NlbXQ9YWlz/X2l0ZW1zX2Jvb3N0/ZWQmdz03NDA" alt="C Programming">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/cs1.html" target="_blank">C Programming</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/58i3rG-cdkwZphuujCesmw0rYlssc71_cawNqo2vQWM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9lbmdp/bmVlcmluZ3Byb2R1/Y3RkZXNpZ24uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9NYW51/ZmFjdHVyaW5nX3By/b2Nlc3Nlcy5wbmc" alt="Manufacturing Processes">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/second-year/common/manufacture.html" target="_blank">Manufacturing Processes</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/0aBe7WKPNYEZSkos0QVnsLqq3NHM8xX2BMUnk-XC7Bw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vdmFyaWFu/dHMvRkZkVHJ5ZlR6/VXZTSEFNcktQNGdF/TVBoLzYyNGYwZGMx/ZGZmOWJkY2NhYjAz/MmY5M2MzM2U3OWRl/Nzg0ODE3NzBlNzll/MjFkM2IwNDY5ZGFm/NTFmMDI3OTc" alt="Chemistry">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/chem.html" target="_blank">Chemistry</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/0NuBEhf-4iViKuGcwCILOO9F-6GVGUhPmICkzjwCfYo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzg0Lzc2LzM4/LzM2MF9GXzI4NDc2/MzgzOF94cUROelh2/MjJLcnR1S084b2ho/SHJsRklWZVVrcTU4/ZC5qcGc" alt="Energy & Environment">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/env.html" target="_blank">Energy & Environment</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/bD8WhfNAobKu4chq-p2YJLQaA79sI1AI67S_fdAR8nU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWVjaGFuaWNh/bC1lbmdpbmVlcmlu/Zy1kcmF3aW5ncy1i/bGFjay1iYWNrZ3Jv/dW5kLXRhcC10b29s/cy1ib3Jlci10ZWNo/bmljYWwtZGVzaWdu/LWNvdmVyLWJsdWVw/cmludC12ZWN0b3It/aWxsdXN0cmF0aW9u/XzEwMTAwMi04MTUu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MA" alt="Engineering Drawing">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/draw1.html" target="_blank">Engineering Drawing</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/ycQiipNc8tzfjOTUbJvjj4OwcNxNgjc7r0E9lDYvR3I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTIv/NzU0Lzk4Mi9zbWFs/bC9oYW5kd3JpdGlu/Zy1vZi1tYXRoZW1h/dGljcy1xdWFkcmF0/aWMtZXF1YXRpb24t/b24tZXhhbWluYXRp/b24tcHJhY3RpY2Ut/cXVpei1vci10ZXN0/LWluLW1hdGhzLWNs/YXNzLXNvbHZpbmct/ZXhwb25lbnRpYWwt/ZXF1YXRpb25zLWNv/bmNlcHQtcGhvdG8u/SlBH" alt="Mathematics-2">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/maths2.html" target="_blank">Mathematics-2</a>
+        </div>
+      </div>
+
+      <div class="subject-card">
+        <img src="https://imgs.search.brave.com/-6gMdUVLoCoim1VZNqTfErF0xYKZdWvMGZ7fvM2fsC8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/ZGlmZmVyZW5jZXMt/YmV0d2Vlbi1lbGVj/dHJpY2FsLWVuZ2lu/ZWVyaW5nLWFuZC1l/bGVjdHJvbmljLXYw/LWlzcDVhaXJ0cjZs/ZDEuanBlZz93aWR0/aD02NDAmY3JvcD1z/bWFydCZhdXRvPXdl/YnAmcz00ODUxOWZk/ZmE4NDRkNDg5NWY5/MTFhMzJkMWQ3Y2Fj/MDJjNDU1ZDk4" alt="Electrical & Electronics">
+        <div class="subject-info">
+          <a href="https://myherupa.com/pages/subjects/first-year/electrielectro.html" target="_blank">Electrical & Electronics</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="highlight-block">
+    <h3>CGPA: 8.9</h3>
+      <p> Gained multi-domain exposure and strengthened problem-solving skills.</p>
+  </div>
+
+  <div class="footer">
+    <p>Contact: <a href="mailto:tpandey1_be24@thapar.edu" style="color: #ffcccb;">tpandey1_be24@thapar.edu</a></p>
+    <p>Phone: <span>7743080897</span></p>
+  </div>
+
+</body>
+
+</html>

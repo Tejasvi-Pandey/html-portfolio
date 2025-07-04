@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tejasvi's About Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    .head {
+      background-color: #003366;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      text-align: right;
+    }
+
+    .head h2 {
+      margin: 0;
+      font-size: 18px;
+      word-spacing: 20px;
+    }
+
+    .head a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .head a:hover {
+      text-decoration: underline;
+    }
+
+    .city {
+      background: linear-gradient(135deg, #007B7F, #009688);
+      color: white;
+      padding: 80px 20px 40px;
+      text-align: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+
+    .city h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .city p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    .second_block {
+      background-color: #ffffff;
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin: 30px auto;
+      max-width: 1100px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .second_block h2 {
+      color: #003366;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #009688;
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .gallery {
+      margin: 10px;
+      border: 1px solid #ccc;
+      display: inline-block;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .gallery:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+      border-color: #007B7F;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .desc {
+      padding: 10px;
+      font-weight: bold;
+      background: #f9f9f9;
+    }
+
+    .third_block {
+      background-color: #e3f2fd;
+      padding: 20px;
+      font-size: 18px;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+
+    .third_block a {
+      color: #007B7F;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .third_block a:hover {
+      text-decoration: underline;
+    }
+
+    .end {
+      background: #003366;
+      padding: 50px 20px;
+      color: white;
+      text-align: center;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+    }
+
+    .end h2 {
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
+
+    .end p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .end i {
+      margin-right: 5px;
+      color: #4CAF50;
+    }
+
+    a span {
+      color: white;
+    }
+
+    a:hover span {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="head">
+    <h2>
+      <a href="#city">About</a>
+      <a href="#course">College</a>
+      <a href="#end">Contact</a>
+    </h2>
+  </div>
+
+  <div class="city" id="city">
+    <h1>This is Tejasvi</h1>
+    <p>Pursuing COE at TIET</p>
+  </div>
+
+  <div class="second_block">
+    <h2 id="course">Subjects I studied in my first year !</h2>
+
+    <div class="gallery">
+      <a target="_blank" href="https://myherupa.com/pages/subjects/first-year/phy.html">
+        <img src="https://imgs.search.brave.com/wqvBTfLlRwZvIShADyV2gmQ5oiCNZ36pDTR8bG7J-7Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9waHlz/aWNzLWRpYWdyYW1z/LWZvcm11bGFzLTI3/NTA1NjQ4LmpwZw" alt="Physics">
+      </a>
+      <div class="desc">Physics</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://myherupa.com/pages/subjects/first-year/cs1.html">
+        <img src="https://imgs.search.brave.com/HyjRDT25f-V7WIf4h_Pwv_NHVpi59GjrO6NflZuXkrM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDY3/NjYyNDI5L3Bob3Rv/L2J1YmJsZS1zb3J0/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1Rbjkycm5EM1Qt/NDY2TmUyVTg0RWY1/TmhCZElQck12TTNp/ZkNOY0dSUmZJPQ" alt="C Language">
+      </a>
+      <div class="desc">C Language</div>
+    </div>
+
+  <div class="third_block">
+    <h4>To check more courses <a target="_blank" href="./subjects.html">click here</a></h4>
+  </div>
+   </div>
+  <div class="end" id="end">
+    <h2>Let's grow together...</h2>
+    <p style="color: #ffcccb;"><b>Contact details are as below</b></p>
+    <p>
+      <i class="fas fa-phone"></i><span title="7743080897">Phone Number</span>
+      &nbsp;&nbsp;
+      <a href="mailto:tpandey1_be24@thapar.edu">
+        <i class="fas fa-envelope"></i><span title="tpandey1_be24@thapar.edu">Gmail</span>
+      </a>
+    </p>
+  </div>
+
+</body>
+</html>
